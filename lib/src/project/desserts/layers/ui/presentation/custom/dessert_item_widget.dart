@@ -12,12 +12,11 @@ class DessertItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       borderRadius: BorderRadius.circular(16.r),
-      onTap: () {
-        context.goNamed(
-          AppRoute.dessertDetails.name,
-          pathParameters: {'id': dessert.id},
-        );
-      },
+      onTap: () => context.goNamed(
+        AppRoute.dessertDetails.name,
+        extra: dessert,
+        pathParameters: {'id': dessert.id},
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -28,6 +27,14 @@ class DessertItemWidget extends StatelessWidget {
               height: 245.h,
               child: Image.network(
                 dessert.imageUrl,
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) return child;
+                  return const Center(
+                    child: CircularProgressIndicator(
+                      color: Colors.white,
+                    ),
+                  );
+                },
                 fit: BoxFit.cover,
               ),
             ),

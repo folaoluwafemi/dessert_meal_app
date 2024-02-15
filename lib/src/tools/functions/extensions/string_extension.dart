@@ -35,3 +35,8 @@ extension StringExtension on String {
 }
 
 String stringFromUtf8Encoded(List<int> data) => utf8.decode(data);
+
+
+extension NullableStringExtension on String? {
+  bool get isNullOrEmpty => this == null || this!.isEmpty;
+}

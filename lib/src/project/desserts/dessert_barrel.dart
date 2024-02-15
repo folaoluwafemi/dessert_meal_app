@@ -5,3 +5,4 @@ export 'package:dessert_meal_app/src/project/desserts/layers/domain/model/desser
 export 'package:dessert_meal_app/src/project/desserts/layers/ui/presentation/desserts_screen.dart';
 export 'package:dessert_meal_app/src/project/desserts/layers/ui/presenter/desserts_presenter.dart';
 export 'package:dessert_meal_app/src/project/desserts/sub_entities/dessert_detail/ui/presentation/desserts_detail_screen.dart';
+export 'package:dessert_meal_app/src/project/desserts/sub_entities/dessert_detail/ui/presenter/dessert_detail_presenter.dart';

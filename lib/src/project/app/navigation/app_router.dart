@@ -39,6 +39,7 @@ final GoRouter _router = GoRouter(
           builder: (context, state) {
             return DessertDetailScreen(
               dessertID: state.pathParameters['id']!,
+              dessert: state.extra as Dessert,
             );
           },
         ),

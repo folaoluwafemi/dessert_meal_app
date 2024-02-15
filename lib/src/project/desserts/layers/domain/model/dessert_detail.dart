@@ -1,4 +1,5 @@
 import 'package:dessert_meal_app/src/project/desserts/layers/domain/model/dessert.dart';
+import 'package:dessert_meal_app/src/tools/tools_barrel.dart';
 
 class DessertDetail extends Dessert {
   final String category;
@@ -45,12 +46,12 @@ class DessertDetail extends Dessert {
       final String? ingredient = map[ingredientKey] as String?;
       final String? measure = map[measureKey] as String?;
 
-      if (ingredient == null || measure == null) continue;
+      if (ingredient.isNullOrEmpty || measure.isNullOrEmpty) continue;
 
       ingredientMeasures.add(
         IngredientMeasure(
-          ingredient: ingredient,
-          measure: measure,
+          ingredient: ingredient!,
+          measure: measure!,
         ),
       );
     }
