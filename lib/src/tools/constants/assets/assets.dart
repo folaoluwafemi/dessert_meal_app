@@ -1,0 +1,1 @@
+part 'font_assets.dart';
