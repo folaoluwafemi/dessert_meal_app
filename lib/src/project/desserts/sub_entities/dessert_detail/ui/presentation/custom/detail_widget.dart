@@ -4,8 +4,8 @@ class DetailWidget extends StatelessWidget {
   final DessertDetail dessertDetail;
 
   const DetailWidget({
-    Key? key,
     required this.dessertDetail,
+    Key? key,
   }) : super(key: key);
 
   @override

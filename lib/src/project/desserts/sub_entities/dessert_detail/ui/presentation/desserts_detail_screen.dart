@@ -50,6 +50,14 @@ class DessertDetailScreen extends StatelessWidget {
                     Image.network(
                       dessert.imageUrl,
                       width: context.screenWidth,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) return child;
+                        return const Center(
+                          child: CircularProgressIndicator(
+                            color: Colors.white,
+                          ),
+                        );
+                      },
                       height: 265.h,
                       fit: BoxFit.cover,
                     ),
