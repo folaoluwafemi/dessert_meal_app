@@ -31,9 +31,9 @@ for this app was made by me using Figma
   ![Simulator Screenshot - iPhone 15 Pro Max - 2024-02-15 at 18 32 05](https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/d0e19526-afba-4c93-8dca-d8a64d01829b)
   </p>
 <p>
- <img style="width : 30%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/c57a1344-e13b-45a9-84be-629204cd7dd0"></img>
- <img style="width : 30%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/776e3c90-9326-4fe7-9866-af98d358fd30"></img>
- <img style="width : 30%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/d0e19526-afba-4c93-8dca-d8a64d01829b"></img>
+ <img width="30%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/c57a1344-e13b-45a9-84be-629204cd7dd0"></img>
+ <img width="30%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/776e3c90-9326-4fe7-9866-af98d358fd30"></img>
+ <img width="30%" : 30%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/d0e19526-afba-4c93-8dca-d8a64d01829b"></img>
 </p>
 
 
