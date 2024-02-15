@@ -2,6 +2,8 @@
 
 This is a job skill assessment project
 
+`By the way, it took me ~7 hours to Design (figma), Code and Document this project. I hope you like it! :)`
+
 ## Images
 
 <img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/c57a1344-e13b-45a9-84be-629204cd7dd0" alt="Splash Screen Screenshot"></img>
@@ -21,7 +23,8 @@ for this app was made by me using Figma
 
 - Android Studio
 - Dart/Flutter
-- [VanillaState](https://pub.dev/packages/vanilla_state) for state managment - A very simple state management library
+- [VanillaState](https://pub.dev/packages/vanilla_state) for state managment - A very simple state
+  management library
   that I built my self
 - [Dio](https://pub.dev/packages/dio) for network requests
 - [GoRouter] for routing
@@ -29,7 +32,8 @@ for this app was made by me using Figma
 ## Architecture
 
 - Model View Presenter (MVP)
-    - This architecture works such that the `Presenter` provides state to the `Ui` and receives events from the `Ui`
+    - This architecture works such that the `Presenter` provides state to the `Ui` and receives
+      events from the `Ui`
 
 ## Features
 
