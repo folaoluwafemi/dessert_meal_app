@@ -17,6 +17,7 @@ dependencies:
   go_router: ^13.1.0
   flutter_screenutil: ^5.9.0
   noodle_image: ^1.0.2
+  dio: ^5.4.0
 
 dev_dependencies:
   flutter_test:

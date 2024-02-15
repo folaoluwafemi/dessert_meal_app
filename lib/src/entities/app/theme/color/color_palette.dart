@@ -1,3 +1,4 @@
+import 'package:dessert_meal_app/src/entities/app/app_barrel.dart';
 import 'package:flutter/material.dart';
 
 class ColorPalette extends ThemeExtension<ColorPalette> {
@@ -15,7 +16,13 @@ class ColorPalette extends ThemeExtension<ColorPalette> {
     required this.background,
   });
 
-  @override
+  const ColorPalette.light()
+      : primary = AppColors.primary,
+        secondary = AppColors.secondary,
+        textBlack = AppColors.textBlack,
+        textGrey = AppColors.textGrey,
+        background = AppColors.background;
+
   ThemeExtension<ColorPalette> copyWith({
     Color? primary,
     Color? secondary,
