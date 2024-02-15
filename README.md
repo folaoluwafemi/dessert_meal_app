@@ -1,16 +1,28 @@
-# dessert_meal_app
-
-A new Flutter project.
+# Dessert Meal App
+This is a job skill assessment project
 
 ## Getting Started
+This project is a simple dessert meal app that allows users to view, dessert meals and it's detail.
 
-This project is a starting point for a Flutter application.
+# Components
+## Design template
+[The design](https://www.figma.com/file/EOFJybVuPB3tWMAFQJ2kq6/Dessert-Meal-App?type=design&node-id=0%3A1&mode=design&t=a70BE28sMnBawrzk-1)
+for this app was made by me using Figma 
 
-A few resources to get you started if this is your first Flutter project:
+## Tools
+- Android Studio
+- Dart/Flutter
+- [VanillaState](https://pub.dev/packages/vanilla_state) for state managment - A very simple state management library that I built my self
+- [Dio](https://pub.dev/packages/dio) for network requests
+- [GoRouter] for routing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Architecture
+- Model View Presenter (MVP)
+  - This architecture works such that the `Presenter` provides state to the `Ui` and receives events from the `Ui`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Fetch dessert meals
+- View dessert meal details
+
+
+

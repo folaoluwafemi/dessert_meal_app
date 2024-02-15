@@ -4,6 +4,7 @@ import 'dart:io';
 import 'dart:math' as math;
 import 'dart:typed_data';
 
+import 'package:dessert_meal_app/src/project/app/app_barrel.dart';
 import 'package:flutter/material.dart';
 
 part 'context_extensions.dart';

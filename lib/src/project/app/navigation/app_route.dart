@@ -3,7 +3,7 @@ part of 'app_router.dart';
 enum AppRoute {
   splash('/'),
   desserts('/desserts'),
-  dessertDetails('/desserts/:id'),
+  dessertDetails('dessertsDetail/:id'),
   ;
 
   final String path;

@@ -5,3 +5,4 @@ export 'package:dessert_meal_app/src/tools/functions/functions_barrel.dart';
 export 'package:dessert_meal_app/src/tools/state_management/base_class/presenter.dart';
 export 'package:dessert_meal_app/src/tools/state_management/base_class/vanilla_state.dart';
 export 'package:dessert_meal_app/src/tools/state_management/state_management_utils.dart';
+export 'package:dessert_meal_app/src/tools/ui/loader/loader_widget.dart';

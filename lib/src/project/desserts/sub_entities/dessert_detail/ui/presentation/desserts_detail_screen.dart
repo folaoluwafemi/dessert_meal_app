@@ -1,4 +1,6 @@
+import 'package:dessert_meal_app/src/tools/tools_barrel.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DessertDetailScreen extends StatelessWidget {
   final String dessertID;
@@ -11,7 +13,10 @@ class DessertDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Placeholder(),
+      body: Stack(
+        children: [
+        ],
+      ),
     );
   }
 }

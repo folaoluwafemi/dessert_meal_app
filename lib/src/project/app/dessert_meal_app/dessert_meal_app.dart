@@ -13,6 +13,7 @@ class DessertMealApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return _AppSetup(
       child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
         routerConfig: AppRouter.config,
         builder: (context, child) => ScreenUtilInit(
           designSize: const Size(430, 932),

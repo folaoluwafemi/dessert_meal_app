@@ -18,6 +18,7 @@ dependencies:
   flutter_screenutil: ^5.9.0
   noodle_image: ^1.0.2
   dio: ^5.4.0
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -35,11 +36,11 @@ flutter:
   fonts:
     - family: DarkerGrotesque
       fonts:
-        - asset: assets/font/darker_grotesk/DarkerGrotesque-Bold.ttf
+        - asset: assets/fonts/darker_grotesk/DarkerGrotesque-Bold.ttf
           weight: 700
     - family: SpaceGrotesk
       fonts:
-        - asset: assets/fonts/space_grotesk/SpaceGrotesque-Medium.ttf
+        - asset: assets/fonts/space_grotesk/SpaceGrotesk-Medium.ttf
           weight: 500
     - family: Inter
       fonts:

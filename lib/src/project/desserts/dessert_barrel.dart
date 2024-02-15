@@ -1,3 +1,4 @@
+export 'package:dessert_meal_app/src/project/app/dessert_meal_app/dessert_meal_app.dart';
 export 'package:dessert_meal_app/src/project/desserts/layers/data/source/desserts_source.dart';
 export 'package:dessert_meal_app/src/project/desserts/layers/domain/model/dessert.dart';
 export 'package:dessert_meal_app/src/project/desserts/layers/domain/model/dessert_detail.dart';
