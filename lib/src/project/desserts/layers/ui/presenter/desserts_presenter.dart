@@ -1,4 +1,4 @@
-import 'package:dessert_meal_app/src/entities/desserts/dessert_barrel.dart';
+import 'package:dessert_meal_app/src/project/desserts/dessert_barrel.dart';
 import 'package:dessert_meal_app/src/tools/tools_barrel.dart';
 
 part 'desserts_state.dart';

@@ -1,5 +1,5 @@
-import 'package:dessert_meal_app/src/entities/app/app_barrel.dart';
-import 'package:dessert_meal_app/src/entities/desserts/dessert_barrel.dart';
+import 'package:dessert_meal_app/src/project/app/app_barrel.dart';
+import 'package:dessert_meal_app/src/project/desserts/dessert_barrel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vanilla_state/vanilla_state.dart';
@@ -15,7 +15,7 @@ class DessertMealApp extends StatelessWidget {
       child: MaterialApp.router(
         routerConfig: AppRouter.config,
         builder: (context, child) => ScreenUtilInit(
-          designSize: const Size(390, 844),
+          designSize: const Size(430, 932),
           splitScreenMode: true,
           useInheritedMediaQuery: true,
           builder: (context, child) => MediaQuery(

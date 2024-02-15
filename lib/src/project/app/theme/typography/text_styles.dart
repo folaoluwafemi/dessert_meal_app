@@ -1,4 +1,4 @@
-import 'package:dessert_meal_app/src/entities/app/app_barrel.dart';
+import 'package:dessert_meal_app/src/project/app/app_barrel.dart';
 import 'package:dessert_meal_app/src/tools/tools_barrel.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

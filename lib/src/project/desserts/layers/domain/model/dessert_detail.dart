@@ -1,4 +1,4 @@
-import 'package:dessert_meal_app/src/entities/desserts/layers/domain/model/dessert.dart';
+import 'package:dessert_meal_app/src/project/desserts/layers/domain/model/dessert.dart';
 
 class DessertDetail extends Dessert {
   final String category;

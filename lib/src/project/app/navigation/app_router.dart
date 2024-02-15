@@ -1,5 +1,5 @@
-import 'package:dessert_meal_app/src/entities/app/starter/splash/splash_screen.dart';
-import 'package:dessert_meal_app/src/entities/desserts/dessert_barrel.dart';
+import 'package:dessert_meal_app/src/project/app/starter/splash/splash_screen.dart';
+import 'package:dessert_meal_app/src/project/desserts/dessert_barrel.dart';
 import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
 

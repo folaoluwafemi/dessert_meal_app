@@ -1,4 +1,4 @@
-import 'package:dessert_meal_app/src/entities/app/app_barrel.dart';
+import 'package:dessert_meal_app/src/project/app/app_barrel.dart';
 import 'package:flutter/material.dart';
 
 class ColorPalette extends ThemeExtension<ColorPalette> {
