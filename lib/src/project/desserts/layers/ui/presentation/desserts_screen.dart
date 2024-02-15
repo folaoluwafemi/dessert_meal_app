@@ -55,15 +55,20 @@ class _DessertsScreenState extends State<DessertsScreen> {
                     ),
                     30.boxHeight,
                     Expanded(
-                      child: ListView.separated(
-                        separatorBuilder: (context, index) => 24.boxHeight,
-                        itemCount: state.desserts.length,
-                        itemBuilder: (context, index) {
-                          final Dessert dessert = state.desserts[index];
-                          return DessertItemWidget(
-                            dessert: dessert,
-                          );
+                      child: RefreshIndicator(
+                        onRefresh: () async {
+                          context.read<DessertsPresenter>().fetchDesserts();
                         },
+                        child: ListView.separated(
+                          separatorBuilder: (context, index) => 24.boxHeight,
+                          itemCount: state.desserts.length,
+                          itemBuilder: (context, index) {
+                            final Dessert dessert = state.desserts[index];
+                            return DessertItemWidget(
+                              dessert: dessert,
+                            );
+                          },
+                        ),
                       ),
                     ),
                   ],
