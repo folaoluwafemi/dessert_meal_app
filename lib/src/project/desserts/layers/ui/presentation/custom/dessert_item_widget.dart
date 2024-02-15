@@ -39,7 +39,7 @@ class DessertItemWidget extends StatelessWidget {
               ),
             ),
           ),
-          8.boxHeight,
+          12.boxHeight,
           Text(
             dessert.name,
             style: context.bodyMedium,
