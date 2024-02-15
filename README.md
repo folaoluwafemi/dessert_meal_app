@@ -4,9 +4,9 @@ This is a job skill assessment project
 
 ## Images
 
-<img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/c57a1344-e13b-45a9-84be-629204cd7dd0"></img>
-<img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/44329dca-e952-44d5-a1ef-527addf59e47"></img>
-<img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/d0e19526-afba-4c93-8dca-d8a64d01829b"></img>
+<img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/c57a1344-e13b-45a9-84be-629204cd7dd0" alt="Splash Screen Screenshot"></img>
+<img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/44329dca-e952-44d5-a1ef-527addf59e47" alt="Desserts Listing Screen Screenshot"></img>
+<img width="33%" src="https://github.com/folaoluwafemi/dessert_meal_app/assets/89414401/d0e19526-afba-4c93-8dca-d8a64d01829b" alt="Desserts Detail Screen Screenshot"></img>
 
 ## Getting Started
 
